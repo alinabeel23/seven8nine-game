@@ -15,13 +15,14 @@ let score = document.querySelector('#score')
 
 // let blockadePosition = [10, 11, 21]
 
-
+const popUp = document.querySelector('#popup')
 const width = 10
 const gridCellCount = width * width
 const cells = []
 
 clearInterval()
 
+popUp.style.display = 'none'
 
 function createGrid() {
     for (let i = 0; i < gridCellCount; i++){
@@ -69,8 +70,10 @@ function reset(){
     snakePosition = 43
     dot = 'right'
     cells[foodPosition].classList.remove('food')
+    popUp.style.display = 'none'
     totalFood = 0
     startGame()
+    
 }
 
 
@@ -82,8 +85,7 @@ function startGame(){
     const timer = setInterval(() => {
         if (totalFood > 9){
             clearInterval(timer)
-            alert(score)
-            return
+             popUp.style.display = ''
         }
 
         totalFood ++ 

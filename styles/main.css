@@ -4,6 +4,15 @@
     justify-content: center;
     margin-bottom: 100px;
 }
+#popup {
+    width: 100vw;
+    height: 100vh;
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
 
 .grid {
     display: flex;
@@ -32,7 +41,7 @@ h1 {
 
 h3, h4 {
     color: white;
-    position: relative;
+    /* position: relative; */
     /* left: 100px; */
     /* top: 150px; */
 }
@@ -86,3 +95,4 @@ body {
 #resetgame {
     cursor: pointer;
 }
+
