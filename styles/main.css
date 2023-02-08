@@ -1,0 +1,88 @@
+.grid-wrapper {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    height: 600px;
+    width: 600px;
+    background-color: gray;
+
+}
+
+
+.seven {
+    background-color: black;
+}
+
+.nine {
+    background-color: rgb(52, 255, 41);
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    /* position: relative;
+    left: 100px; */
+}
+
+h3, h4 {
+    color: white;
+    position: relative;
+    /* left: 100px; */
+    /* top: 150px; */
+}
+
+.grid div {
+    border: 0.05px solid transparent;
+    height: 9.83%;
+    width: 9.83%;
+    color: rgba(234, 240, 246, 0.0);
+}
+
+.object {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    /* position: absolute; */
+}
+
+.food {
+    background-image: url('../images/nine.svg');
+    /* background-color: rgb(224, 60, 0); */
+}
+
+
+.grid div.snake {
+    background-color: black;
+
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #161616;
+}
+
+
+.grid div.blockade {
+    background-color: white;
+}
+
+.text {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#startgame {
+    cursor: pointer;
+}
+
+#resetgame {
+    cursor: pointer;
+}
