@@ -8,6 +8,7 @@ let snakePosition = 43
 let foodPosition = 0
 let totalFood = 0
 let resetButton = document.querySelector('#resetgame')
+// let imposterPosition = 0
 
 let startButton = document.querySelector('#startgame')
 let scoreCount = 0
@@ -56,8 +57,10 @@ createGrid()
 // }
 
 function onStart(){
-    setInterval(changeDirection, 500)
+    setInterval(changeDirection, 700)
     startGame()
+    eatFood()
+
 
 }
 
@@ -92,7 +95,10 @@ function startGame(){
         cells[foodPosition].classList.remove('food')
         foodPosition = Math.floor(Math.random() * gridCellCount)
         cells[foodPosition].classList.add('food')
-    }, 1200)
+        // cells[imposterPosition].classList.remove('imposter')
+        // foodPosition = Math.floor(Math.random() * gridCellCount)
+        // cells[imposterPosition].classList.add('imposter')
+    }, 1600)
 
 
     
@@ -243,7 +249,7 @@ function eatFood(){
 }
 }
 
-eatFood()
+
 // function eatFood(){
 //     if(cells[snakePosition].classList.contains('food')){
 //         scoreCount++
