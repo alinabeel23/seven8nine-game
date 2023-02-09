@@ -12,7 +12,7 @@ let resetButton = document.querySelector('#resetgame')
 
 let startButton = document.querySelector('#startgame')
 let scoreCount = 0
-let score = document.querySelector('#score')
+let score = document.querySelector('.score')
 
 // let blockadePosition = [10, 11, 21]
 
