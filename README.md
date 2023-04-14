@@ -4,6 +4,11 @@
 ## Brief
 The brief required the recreation of a game of my choice using HTML, CSS, and Vanila JavaScript only in the span of a week.
 
+## Development Process
+As this was my first development project, I faced a significant learning curve and many obstacles. Initially, I had a clear vision of what I wanted to achieve, but I struggled to translate my ideas into code.
+
+To begin, I started by building the basic structure of the game in HTML, then proceeded to add some interactive functionality using Vanilla JavaScript. I faced many challenges such as not being able to get the snake to leave from one side and come in from the other. These difficulties led to me exploring different approaches and techniques. Despite these challenges, I managed to create a functional game within the given timeframe. However, there were several features that I was unable to implement due to my limited experience. Nevertheless, I am proud of what I achieved and excited to continue learning and developing my skills.
+
 ## What is it exactly
 I chose to build a game that is modern take on a the classic Snake 2 game, where the player must catch as many of the circles before the time runs out.
 
